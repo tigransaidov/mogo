@@ -38,7 +38,7 @@ $(function() {
     let introH = intro.innerHeight();
     let aboutTop = $('#about').offset().top
     let aboutBottom = $('#about').innerHeight() + aboutTop + 100;
-    let serviceTop = $('#service').offset().top - 100;
+    let serviceTop = $('#service').offset().top - 90;
     let serviceBottom = $('#service').innerHeight() + serviceTop;
     let workTop = $('#work').offset().top - 200
     let workBottom = $('#work').innerHeight() + workTop - 100;
